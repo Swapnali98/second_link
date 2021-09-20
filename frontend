@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale:1.0" />
+    <title>Grab a Ride</title>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="#home" id="navbar_logo">Grab ^ Ride</a>
+        <ul class="navbar-menu">
+          <li class="items">
+            <a href="#home" class="navbar_links" id="home-page">Home</a>
+          </li>
+          <li class="items">
+            <a href="#about" class="navbar_links" id="about-page">About</a>
+          </li>
+          <li class="items">
+            <a href="#services" class="navbar_links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="items">
+            <a href="#contact" class="navbar_links" id="contact-page"
+              >Contact</a
+            >
+          </li>
+          <li class="navbar_btn">
+            <a href="register.html" class="button" id="signup">Account</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="carB.html" class="button1" id="book">Book</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="background">
+      <div class="over"></div>
+    </div>
+
+    <div class="main" id="home">
+      <div class="heading">
+        <h4>Book your ride to reach your destination in town</h4>
+      </div>
+      <div class="text">Choose from a range of categories and prices</div><br><br>
+      
+    </div>
+
+
+    <div class="leaders" id="about">
+      <div class="about">
+        <h2>Who we are</h2>
+        <p>
+          Grab a Ride is India’s largest mobility platform and one of the
+          world’s largest ride-hailing companies, serving 250+ cities across
+          India, Australia, New Zealand, and the UK. The Grab a Ride app offers
+          mobility solutions by connecting customers to drivers and a wide range
+          of vehicles millions of consumers and over 1.5 million
+          driver-partners.
+          <br />
+          <br />
+          Grab a Ride Financial Services and a range of owned food brands
+          through India’s largest network of kitchens under its Food business.
+          Grab a Ride was founded in Dec 2010 by Mahadev Pawar and Swapnali
+          pawar with a mission to build mobility for a billion people.
+        </p>
+      </div>
+      <div class="people">
+        <div class="team1">
+          <div class="img">
+            <img src="DSC_0497.jpg" />
+          </div>
+          <div class="teamdetails">
+            <div class="name">
+              <h4>N.r Mahadev Pawar</h4>
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+            <div class="profession">
+              <p>Founder</p>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="team2">
+          <div class="img">
+            <img src="SwapnaliPawar.jpg" />
+          </div>
+          <div class="teamdetails">
+            <div class="name">
+              <h4>Swapnali Pawar</h4>
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+            <div class="profession">
+              <p>CEO</p>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="services">
+      <div class="gallery">
+          <img src="1.jpg" alt=" " width="340" height="250">
+        </a>
+        <h2>CITY TAXI</h2><br>
+        <p>The perfect way to get through your everyday travel needs. City taxis are available 24/7 and you can book and travel in an instant. With rides starting from as low as Rs. 6/km, you can choose from a wide range of options! You can also opt to do your bit for the environment with Ola Share!</p>
+      </div>
+
+      <div class="gallery">
+        <img src="2.jpg" alt=" " width="340" height="250">
+      </a>
+      <h2>OUTSTATION</h2><br>
+      <p>Ride out of town at affordable one-way and round-trip fares with Ola’s intercity travel service. Choose from a range of AC cabs driven by top partners, available in 1 hour or book upto 7 days in advance. We have you covered across India with presence in 90+ cities with over 500 one way routes.</p>
+    </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="form">
+        <h2>Feel free to ask anything</h2>
+        <div class="submit">
+          <input type="text" name="" placeholder="Name" />
+          <input type="email" name="" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <a href="#">Sent Message</a>
+        </div>
+      </div>
+
+      <div class="map">
+        <h2>Main Headquarter</h2>
+        <p>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          RMWH+H2F, Electronic City Phase II, Electronic City, Bengaluru,
+          Karnataka 560100
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.950979547205!2d77.67535821443761!3d12.846442721088982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s7J4VRMWH%2BH2F!5e0!3m2!1sen!2sin!4v1628491548445!5m2!1sen!2sin"
+          width="600"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="column"><h4 class="name">Top cities visited</h4></div>
+        <hr />
+        <div class="column">
+          <h4 class="h_text">Popular Outstation Routes</h4>
+        </div>
+        <div class="column">
+         <h4 class="h_text1"><b>Southern India</b></h4><br>
+          <h5 class="h_text2">Delhi to Chandigarh Outstation Cabs</h5>
+          <h5 class="h_text2">Delhi to Agra Outstation Cabs</h2>
+          <h5 class="h_text2">Delhi to Jaipur Outstation Cabs</h5>
+          <h5 class="h_text2">Delhi to Shimla Outstation Cabs</h5>
+          <h5 class="h_text2">Delhi to Nainital Outstation Cabs</h5>
+          <h5 class="h_text2">Jaipur to Delhi Outstation Cabs</h5>
+        </div>
+
+		<div class="column">
+			<h4 class="h_text1"><b>Northern India</b></h4><br>
+			 <h5 class="h_text2">Delhi to Chandigarh Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Agra Outstation Cabs</h2>
+			 <h5 class="h_text2">Delhi to Jaipur Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Shimla Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Nainital Outstation Cabs</h5>
+			 <h5 class="h_text2">Jaipur to Delhi Outstation Cabs</h5>
+		   </div>
+
+		   <div class="column">
+			<h4 class="h_text1"><b>East & West India</b></h4><br>
+			 <h5 class="h_text2">Delhi to Chandigarh Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Agra Outstation Cabs</h2>
+			 <h5 class="h_text2">Delhi to Jaipur Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Shimla Outstation Cabs</h5>
+			 <h5 class="h_text2">Delhi to Nainital Outstation Cabs</h5>
+			 <h5 class="h_text2">Jaipur to Delhi Outstation Cabs</h5>
+		   </div>
+
+		   <div class="column">
+			<h4 class="h_text1"><b>Social Links</b></h4><br>
+			   <ul id="menu">
+			<div class="icon">
+				<a href="https://www.facebook.com/Infosys/" target="_blank"
+				  ><i class="fa fa-facebook-official" aria-hidden="true"></i
+				></a>
+	  
+				<a
+				  href="https://twitter.com/Infosys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+				  target="_blank"
+				  ><i class="fa fa-twitter" aria-hidden="true"></i
+				></a>
+				<a href="https://www.youtube.com/user/infosys" target="_blank"
+				  ><i class="fa fa-youtube-play" aria-hidden="true"></i
+				></a>
+				<a href="https://www.instagram.com/infosys/" target="_blank"
+				  ><i class="fa fa-instagram" aria-hidden="true"></i
+				></a>
+			  </div>
+			</ul>
+		</div>
+		<div class="column">
+			<h4 class="h_text3"><p>Copyright © 2021 Grab a Ride Limited</p></h4>
+		</div>
+		</div>			
+      </div>
+    </div>
+  </body>
+</html>
